@@ -1,5 +1,4 @@
-from rest_framework import serializers
-from django.contrib.auth.models import Group, Permission
+
 from rest_framework.validators import UniqueValidator
 
 from api.models import AppUser
